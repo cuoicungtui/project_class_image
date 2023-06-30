@@ -1,0 +1,12 @@
+cài đặt môi trường
+tạo pip freeze > requirements.txt 
+trên mỗi trường ảo đã có
+
+pip install -r requirements.txt
+
+run chạy thưc thi file main.py 
+         python main.py --path_dict D:/tu_CNN/image_test 
+        --path_save_white D:/tu_CNN/image_test/White 
+        --path_save_black D:/tu_CNN/image_test/Black 
+        --path_save_err D:/tu_CNN/image_test/image_err 
+        --batch_size 32
